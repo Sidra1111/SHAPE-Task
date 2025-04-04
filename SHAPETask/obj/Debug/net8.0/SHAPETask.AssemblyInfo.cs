@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SHAPETask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04f1cdc27d173f7c6876791cc40fb9f416d4e429")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+621d04af6f3241aed4e9f2e1553e39afbd6520fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SHAPETask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SHAPETask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
