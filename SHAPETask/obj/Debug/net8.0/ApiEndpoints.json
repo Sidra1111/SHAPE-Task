@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SHAPETask.Controllers.SignupController",
+    "Method": "Register",
+    "RelativePath": "api/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SHAPETask.Models.SignupViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

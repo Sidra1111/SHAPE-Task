@@ -1,0 +1,51 @@
+﻿@model SHAPETask.Models.SignupViewModel
+
+@{
+    ViewData["Title"] = "Signup";
+}
+
+@* <link rel="stylesheet" href="~/css/styles.css" />
+ *@
+<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+
+<div class="container">
+    <h2>Create <span>SHAPE</span> account</h2>
+    <form asp-action="Signup" method="post">
+        <div class="input-group">
+            <div class="input-field">
+                <label for="first-name">First Name</label>
+                <input asp-for="FirstName" placeholder="">
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="input-field">
+                <label for="last-name">Last Name</label>
+                <input asp-for="LastName" placeholder="">
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="input-field">
+            <label for="email">Work Email Address</label>
+            <input asp-for="Email" type="email" placeholder="">
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="input-field password-group">
+            <label for="password">Password</label>
+            <input asp-for="Password" type="password" id="password" placeholder="">
+            <span class="toggle-password" onclick="togglePassword('password')">👁️</span>
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="input-field password-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input asp-for="ConfirmPassword" type="password" id="confirm-password" placeholder="">
+            <span class="toggle-password" onclick="togglePassword('confirm-password')">👁️</span>
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="signup-btn">Sign up</button>
+    </form>
+</div>
+
+<script src="~/js/script.js"></script>
