@@ -1,0 +1,65 @@
+.dob-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dob-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.dob-number {
+  background-color: #d2c2cc;
+  color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.dob-inputs {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.dob-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dob-group input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #8d708a;
+  color: white;
+  width: 80px;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+}
+
+.ok-button {
+  background-color: #3e2f38;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hint {
+  color: #ccc;
+  font-size: 0.9rem;
+}
